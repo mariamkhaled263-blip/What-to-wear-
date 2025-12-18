@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>What-to-wear</title>
+
+    <style>
+        body {
+            text-align: center;
+            background-image: url('Background.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            margin: 0;
+            font-family: Arial, sans-serif;
+            color: #333;
+        }
+
+        nav {
+            background-color: rgba(255, 255, 255, 0.9);
+            display: flex;
+            justify-content: center;
+            gap: 40px;
+            padding: 15px 0;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #333;
+            font-weight: bold;
+            font-size: 16px;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        .product-container {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 30px;
+            margin: 40px 0;
+        }
+
+        .product-card {
+            background-color: rgba(255, 255, 255, 0.9);
+            border-radius: 10px;
+            padding: 15px;
+            width: 200px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+        }
+
+        .product-card img {
+            width: 100%;
+            border-radius: 10px;
+        }
+
+        .product-card h4 {
+            margin: 10px 0 5px 0;
+            font-weight: bold;
+            font-size: 16px;
+        }
+
+        .product-card p {
+            margin: 5px 0;
+            font-size: 14px;
+        }
+
+        select {
+            width: 100%;
+            padding: 6px;
+            border-radius: 5px;
+            border: 1px solid #aaa;
+            margin-top: 8px;
+        }
+
+        .cart-btn {
+            margin-top: 10px;
+            width: 100%;
+            padding: 8px;
+            background-color: #333;
+            color: white;
+            font-weight: bold;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+        }
+
+        .cart-btn:hover {
+            background-color: #555;
+        }
+    </style>
+</head>
+
+<body>
+
+    <nav>
+        <a href="Login.html">Login</a>
+        <a href="Signup.html">Sign-up</a>
+        <a href="homepagefinal.html">Home page</a>
+    </nav>
+
+    <div class="product-container">
+
+        <div class="product-card">
+            <img src="browntshirt.jpg" alt="T-Shirt">
+            <h4>T-Shirt</h4>
+            <p>Price: 600 EGP</p>
+            <p>Color: Brown</p>
+
+            <select>
+                <option disabled selected>Choose Size</option>
+                <option>S</option>
+                <option>M</option>
+                <option>L</option>
+                <option>XL</option>
+            </select>
+
+            <button class="cart-btn">Add to Cart</button>
+        </div>
+
+        <div class="product-card">
+            <img src="Hoodie.jpg" alt="Hoodie">
+            <h4>Hoodie</h4>
+            <p>Price: 1100 EGP</p>
+            <p>Color: Electric Blue</p>
+
+            <select>
+                <option disabled selected>Choose Size</option>
+                <option>S</option>
+                <option>M</option>
+                <option>L</option>
+                <option>XL</option>
+            </select>
+
+            <button class="cart-btn">Add to Cart</button>
+        </div>
+
+        <div class="product-card">
+            <img src="Essentialsweater.jpg" alt="Essentials Sweater">
+            <h4>Essentials Sweater</h4>
+            <p>Price: 950 EGP</p>
+            <p>Color: Multiple Colors</p>
+
+            <select>
+                <option disabled selected>Choose Size</option>
+                <option>S</option>
+                <option>M</option>
+                <option>L</option>
+                <option>XL</option>
+            </select>
+
+            <button class="cart-btn">Add to Cart</button>
+        </div>
+
+        <div class="product-card">
+            <img src="Greyish set.jpg" alt="Greyish Set">
+            <h4>Greyish Set</h4>
+            <p>Price: 1600 EGP</p>
+            <p>Color: Grey</p>
+
+            <select>
+                <option disabled selected>Choose Size</option>
+                <option>S</option>
+                <option>M</option>
+                <option>L</option>
+                <option>XL</option>
+            </select>
+
+            <button class="cart-btn">Add to Cart</button>
+        </div>
+
+        <div class="product-card">
+            <img src="Navyblue.jpg" alt="Navy Blue Quarter Zip">
+            <h4>Navy Blue Quarter Zip</h4>
+            <p>Price: 800 EGP</p>
+            <p>Color: Navy Blue</p>
+
+            <select>
+                <option disabled selected>Choose Size</option>
+                <option>S</option>
+                <option>M</option>
+                <option>L</option>
+                <option>XL</option>
+            </select>
+
+            <button class="cart-btn">Add to Cart</button>
+        </div>
+
+        <div class="product-card">
+            <img src="NavySet.jpg" alt="Navy Blue Set">
+            <h4>Navy Blue Set</h4>
+            <p>Price: 1800 EGP</p>
+            <p>Color: Navy Blue</p>
+
+            <select>
+                <option disabled selected>Choose Size</option>
+                <option>S</option>
+                <option>M</option>
+                <option>L</option>
+                <option>XL</option>
+            </select>
+
+            <button class="cart-btn">Add to Cart</button>
+        </div>
+
+        <div class="product-card">
+            <img src="Basiczip.jpg" alt="Basic Quarter Zip">
+            <h4>Basic Quarter Zip</h4>
+            <p>Price: 500 EGP</p>
+            <p>Color: White & Black</p>
+
+            <select>
+                <option disabled selected>Choose Size</option>
+                <option>S</option>
+                <option>M</option>
+                <option>L</option>
+                <option>XL</option>
+            </select>
+
+            <button class="cart-btn">Add to Cart</button>
+        </div>
+
+        <div class="product-card">
+            <img src="Oversizedhoodie.jpg" alt="Oversized Hoodie">
+            <h4>Oversized Hoodie</h4>
+            <p>Price: 900 EGP</p>
+            <p>Color: Navy Blue</p>
+
+            <select>
+                <option disabled selected>Choose Size</option>
+                <option>S</option>
+                <option>M</option>
+                <option>L</option>
+                <option>XL</option>
+            </select>
+
+            <button class="cart-btn">Add to Cart</button>
+        </div>
+
+        <div class="product-card">
+            <img src="sweatpants.jpg" alt="Basic sweatpants">
+            <h4>Basic Sweatpants</h4>
+            <p>Price: 700 EGP</p>
+            <p>Color: Multiple Colors</p>
+
+            <select>
+                <option disabled selected>Choose Size</option>
+                <option>S</option>
+                <option>M</option>
+                <option>L</option>
+                <option>XL</option>
+            </select>
+
+            <button class="cart-btn">Add to Cart</button>
+        </div>
+
+    </div>
+
+</body>
+</html>
